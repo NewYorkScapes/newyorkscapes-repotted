@@ -1,0 +1,54 @@
+/*****************
+contact form7 
+***********************************************/
+
+		.wpcf7 input[type=text], .wpcf7 input[type=email] {
+			padding: .5em;
+			border: 1px solid #ccc;
+			color: #999;
+			font-size: .95em;
+		}
+
+		.wpcf7 input[type=text]:focus, .wpcf7 input[type=email]:focus,  .wpcf7 input[type=text]:active, .wpcf7 input[type=email]:active, .wpcf7 textarea:focus, .wpcf7 textarea:active {
+			color: #333;
+			border: 1px solid #333;
+		}
+
+		.wpcf7 textarea {
+			border: 1px solid #ccc;
+			width: 60%;
+			min-width: 400px;
+			padding: .5em;
+			color: #999;
+			font-size: .95em;
+		}
+
+
+		.wpcf7 div.wpcf7-validation-errors {
+			background: rgb(244, 248, 138);
+			border-radius: 2px;
+			padding: .5em;
+			color: rgb(124, 116, 99);
+			border: 1px solid rgb(240, 223, 137);
+			font-size: .95em;
+		}
+
+		.wpcf7 div.wpcf7-mail-sent-ok {
+			border: 1px solid #71BEB8;
+			color: rgb(66, 97, 79);
+			background: rgb(89, 223, 174);
+			border-radius: 2px;
+			padding: .5em;
+			font-size: .95em;
+			}
+
+		.wpcf7 span.wpcf7-not-valid-tip {
+				color: #AF1B1B;
+				font-size: .8em;
+				display: block;
+			}
+
+
+		.wpcf7 input[type=submit] {
+			background: #004B8D;
+		}

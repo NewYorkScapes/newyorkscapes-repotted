@@ -1,0 +1,194 @@
+/** positioning styles **/
+
+.sink_dropdown {
+    list-style: none;
+    *zoom: 1;
+    position: relative;
+    margin: 0;
+}
+
+.sink_dropdown:before,
+.sink_dropdown:after {
+    content: " ";
+    display: table;
+}
+
+.sink_dropdown:after {
+    clear: both;
+}
+
+.sink_dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sink_dropdown a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+    *zoom: 1;
+    padding: .25em .75em;
+    height: 60px;
+    display: block;
+}
+
+.sink_dropdown > li {
+    float: left;
+    z-index: 200;
+    height: 60px;
+    margin: 0;
+}
+
+.sink_dropdown > li > a {
+    display: block;
+    z-index: 200;
+    position: relative;
+    background: #fff;
+    height: 60px;
+}
+
+.sink_dropdown li ul {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    opacity: 0;
+     visibility: hidden; /* hides sub-menu */
+}
+
+.sink_dropdown li ul li {
+    display: block;
+}
+
+.sink_dropdown li li a {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.sink_dropdown li li li a {
+    z-index: 200;
+}
+
+.sink_dropdown li {
+    position: relative;
+}
+
+.sink_dropdown li ul.sub-menu {
+    min-width: 180px;
+}
+
+
+/** prefer hover class, not psuedo class so we can use js **/
+
+.sink_dropdown > li.hover > ul {
+      visibility: visible; /* shows sub-menu */
+    transform: translateY(60px);
+    opacity: .95;
+    z-index: 10;
+    height: auto;
+}
+
+.sink_dropdown li li.hover > ul {
+    left: 100%;
+    top: 0;
+    opacity: .95;
+    visibility: visible; /* shows sub-menu */
+}
+
+
+/* for no-js */
+
+.no-js .sink_dropdown > li:hover > ul {
+    left: 0;
+}
+
+.no-js .sink_dropdown li li:hover ul {
+    left: 100%;
+    top: 0;
+    opacity: .95;
+}
+
+
+/** visual/graphic styles **/
+
+.sink_dropdown_container {}
+
+li.sink_dropdown_top,
+.sink_dropdown li {}
+
+li.sink_dropdown_top a,
+.sink_dropdown li a {}
+
+li.sink_dropdown_mid,
+.sink_dropdown li li {}
+
+li.sink_dropdown_mid a,
+.sink_dropdown li li a {}
+
+li.sink_dropdown_bottom,
+.sink_dropdown li li li {}
+
+li.sink_dropdown_bottom a,
+.sink_dropdown li li li a {}
+
+
+/** applies to all items that have a submenu **/
+
+ul.sink_dropdown > li.menu-item-has-children > a:after {
+    content: ' ▼';
+    font-size: 8px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.sink_dropdown_container li li.menu-item-has-children > a:after {
+    content: ' ▶';
+    font-size: 9px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+/* submenu style if there's no js */
+
+.sink_dropdown_container > li > .parent {
+    background-position: 95% 50%;
+}
+
+.sink_dropdown_container li li .parent {
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+@media screen and (max-width: 767px) {
+    .sink_dropdown_container {}
+    .sink_dropdown > li {
+        float: none;
+        height: inherit;
+    }
+    .sink_dropdown ul {
+        display: block;
+        width: 100%;
+    }
+    .sink_dropdown > li.hover > ul,
+    .sink_dropdown li li.hover ul {
+        position: static;
+        transform: translateY(0px);
+    }
+
+    .sink_dropdown > li > a {
+        display: block;
+        height: inherit;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+}

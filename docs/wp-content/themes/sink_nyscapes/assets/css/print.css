@@ -1,0 +1,101 @@
+/*
+Print Styles
+*/
+
+
+	@media print {
+
+		* {
+			-webkit-print-color-adjust: exact; 
+		}
+
+		@page {
+		   margin: 2cm;
+		}
+
+		body, article {
+			width: 100%;
+		}
+
+		img {
+		   max-width: 100% !important;
+		}
+
+		header.pageinfo h1,
+		.printonly {
+			display: block !important;
+			font-size: 3em;
+			color: #222;
+		}
+
+		table, 
+		figure,
+		img { 
+			page-break-inside: avoid 
+		}
+		
+		tr,
+		td { 
+			page-break-inside:avoid; 
+			page-break-after:auto 
+		}
+
+		h1, h2, h3, h4, h5 {
+		  page-break-after: avoid;
+		}
+
+		article a {
+		     font-weight: bolder;
+		     text-decoration: none;
+		  }
+
+		  article a[href^=http] {
+		  	word-wrap: break-word;
+		  }
+
+		  article a[href^=http]:after {
+		     content:" <" attr(href) "> ";
+		     font-weight: normal;
+		     font-style: italic;
+		     word-wrap: break-word;
+		     font-size: .7em;
+		  }
+
+		  article a[href^="#"]:after {
+		     content: "";
+		  }
+		
+		footer,
+		nav {
+			display: none;
+		}
+
+		.tab-content,
+		.tab-content>.tab-pane {
+			display: block !important;
+		}
+
+		.home .onepage,
+		 .home .content {
+			min-height: none;
+		}
+
+		.tab-content>.tab-pane {
+			margin-bottom: 2em;
+		}
+
+		.sidebar,
+		.inline_sidebar {
+			width: 100%;
+			float: none;
+			padding: 0;
+		}
+
+		.text p,
+		.text ul li {
+			line-height: 1.55em;
+		}
+
+   /* end print */
+
+	}

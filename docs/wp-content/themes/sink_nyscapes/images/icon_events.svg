@@ -1,0 +1,42 @@
+<svg id="23ca08a3-6c16-49de-a2af-a87d0a372675" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="41.06" height="29.48" viewBox="0 0 41.06 29.48">
+  <title>nyscapes.rnd.to-dev</title>
+  <g>
+    <rect x="36.42" y="6.18" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect x="30.37" y="6.2" width="4.59" height="4.59" style="fill: #58595b"/>
+    <rect x="24.3" y="6.2" width="4.59" height="4.59" style="fill: #58595b"/>
+    <rect x="18.21" y="6.18" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect x="12.16" y="6.2" width="4.59" height="4.59" style="fill: #58595b"/>
+    <rect x="6.07" y="6.18" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect y="6.18" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect x="36.42" y="12.39" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect x="30.37" y="12.41" width="4.59" height="4.59" style="fill: #ffe5ca"/>
+    <rect x="24.3" y="12.41" width="4.59" height="4.59" style="fill: #58595b"/>
+    <rect x="18.21" y="12.39" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect x="12.16" y="12.41" width="4.59" height="4.59" style="fill: #58595b"/>
+    <rect x="6.07" y="12.39" width="4.64" height="4.64" style="fill: #58595b"/>
+    <rect y="12.39" width="4.64" height="4.64" style="fill: #58595b"/>
+    <g>
+      <rect x="36.42" y="18.59" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect x="30.37" y="18.62" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="24.3" y="18.62" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="18.21" y="18.59" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect x="12.16" y="18.62" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="6.07" y="18.59" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect y="18.59" width="4.64" height="4.64" style="fill: #58595b"/>
+    </g>
+    <g>
+      <rect x="12.16" y="24.87" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="6.07" y="24.84" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect y="24.84" width="4.64" height="4.64" style="fill: #58595b"/>
+    </g>
+    <g>
+      <rect x="36.42" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect x="30.37" y="0.02" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="24.3" y="0.02" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="18.21" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect x="12.16" y="0.02" width="4.59" height="4.59" style="fill: #58595b"/>
+      <rect x="6.07" width="4.64" height="4.64" style="fill: #58595b"/>
+      <rect width="4.64" height="4.64" style="fill: #58595b"/>
+    </g>
+  </g>
+</svg>
